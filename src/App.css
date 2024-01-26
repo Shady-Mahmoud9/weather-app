@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ff73ef;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,44 @@
   to {
     transform: rotate(360deg);
   }
+}
+input{
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  font-size: 20px;
+}
+.form{
+  border: 2px solid ;
+  border-radius: 5px;
+background-color: #61dafb;
+  padding: 50px;
+  color: #000;
+  border: none;
+
+
+}
+button{
+  height: 40px;
+  background:#ff73ef ;
+  width: 50%;
+  border-radius: 5px;
+  border: none;
+  margin: auto;
+  font-size: 18px;
+
+}
+button:hover{
+  background-color:#ffb4f6 ;
+  cursor: pointer;
+}
+.flex{
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  flex-direction: column;
+}
+img{
+  width: 100px;
 }
